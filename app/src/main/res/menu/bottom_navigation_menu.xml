@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/pass"
+        android:enabled="true"
+        android:icon="@drawable/ic_pass_svgrepo_com"
+        android:title="Pass"/>
+    <item
+        android:id="@+id/office"
+        android:enabled="true"
+        android:icon="@drawable/ic_office_svgrepo_com"
+        android:title="office"/>
+    <item
+        android:id="@+id/people"
+        android:enabled="true"
+        android:icon="@drawable/people"
+        android:title="people"/>
+</menu>

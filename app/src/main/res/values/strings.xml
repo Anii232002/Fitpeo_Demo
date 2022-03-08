@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Fitpeo</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="_3_more_evens_later"><![CDATA[3 more evens later ->]]></string>
+    <string name="space">Add a space</string>
+    <string name="attendees">6 attendees in office</string>
+    <string name="quarter"><![CDATA[Quarter 3 Product & Engineering kickOff...]]></string>
+    <string name="today_11_june">Today, 11 june</string>
+    <string name="floor">Floor 1,Boston</string>
+    <string name="name">Nora Kim</string>
+    <string name="plan_ahead">Plan Ahead</string>
+    <string name="desk">Get a desk for next week</string>
+    <string name="teammates">6 teammates will be in</string>
+    <string name="pass_details">You are the first people back in the office!\nMind the signs put up and complete you</string>
+    <string name="passd">Pass Details</string>
+    <string name="name_nora">Nora Kim</string>
+    <string name="name_robin">Robin</string>
+
+    <string-array name="days_item">
+        <item>Mon</item>
+        <item>Tue</item>
+        <item>Wed</item>
+        <item>Thu</item>
+        <item>Fri</item>
+        <item>Sat</item>
+        <item>Sun</item>
+
+    </string-array>
+</resources>

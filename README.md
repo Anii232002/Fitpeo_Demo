@@ -1,0 +1,38 @@
+# Fitpeo_Demo
+Prototype made for Fitpeo 
+Month of creation : March 2022
+
+Features:
+
+1. Uses material design for UI
+2. Uses Geocoder for location access
+3. Uses Spinner and checklist for selecting dates (By clicking on drop down icon)
+4. Splash Screen
+5. Intent to Google Maps for location view by clicking on View on Map
+
+Screen Shots:
+
+Splash Screen:
+
+![splash screen](https://user-images.githubusercontent.com/90499826/157273902-48d90e87-8ece-4412-9e68-2ae8e62c96e1.jpeg)
+
+
+Pass fragment:
+
+![Pass1](https://user-images.githubusercontent.com/90499826/157273743-57b884be-2232-4b90-9193-c7d3a399bdfd.jpeg)
+
+
+![pass2](https://user-images.githubusercontent.com/90499826/157273946-814c37ac-431d-4323-9ec1-fac267af6b97.jpeg)
+
+Pass Details : (You can access this ativity once you click on info icon on pass fragment)
+
+![details1](https://user-images.githubusercontent.com/90499826/157273992-842c343a-bdeb-45bd-ada9-fa9226dc665a.jpeg)
+
+
+![details2](https://user-images.githubusercontent.com/90499826/157274028-7a037a68-3b64-4fb3-84dc-06fc0ab76d2e.jpeg)
+
+
+![details3](https://user-images.githubusercontent.com/90499826/157274054-00573c40-8c4e-47c1-b83d-f7eb79a511ce.jpeg)
+
+
+

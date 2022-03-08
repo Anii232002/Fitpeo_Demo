@@ -11,7 +11,7 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
     <com.google.android.material.card.MaterialCardView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_marginTop="20dp"
         android:elevation="10dp"
         app:cardCornerRadius="20dp"
@@ -19,7 +19,7 @@
         android:background="@drawable/rectangle"
         android:layout_height="wrap_content"
         app:cardBackgroundColor="#FF5D5D"
-        android:layout_margin="20dp"
+        android:layout_margin="10dp"
         >
 
         <LinearLayout
@@ -73,8 +73,8 @@
 
                 <de.hdodenhof.circleimageview.CircleImageView
                     android:id="@+id/info"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
                     android:layout_marginLeft="120dp"
                     android:src="@drawable/info" />
 
@@ -112,7 +112,7 @@
         app:cardCornerRadius="20dp"
         app:cardElevation="20dp"
         android:elevation="10dp"
-        android:layout_margin="20dp"
+        android:layout_margin="10dp"
         android:background="@drawable/rectangle"
         >
         <LinearLayout
@@ -180,9 +180,9 @@
 
         <com.google.android.material.textview.MaterialTextView
             android:layout_width="wrap_content"
-            android:layout_height="13dp"
+            android:layout_height="wrap_content"
             android:layout_marginLeft="90dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="15dp"
             android:fontFamily="@font/montserrat"
             android:text="@string/_3_more_evens_later"
             android:textColor="#858383"

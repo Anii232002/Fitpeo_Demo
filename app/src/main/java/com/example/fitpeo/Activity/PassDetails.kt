@@ -17,6 +17,7 @@ import android.location.LocationManager
 import android.net.Uri
 import android.widget.ImageButton
 import android.widget.ImageView
+import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AlertDialog
 import androidx.core.app.ActivityCompat
@@ -42,7 +43,7 @@ class PassDetails : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_pass_details)
        initialise()
-
+        showcity()
         cancel.setOnClickListener { view ->
             val i = Intent(this, MainActivity::class.java)
             startActivity(i)
@@ -56,7 +57,7 @@ class PassDetails : AppCompatActivity() {
         }
 
 
-        showcity()
+
           viewonmap.setOnClickListener{view->
               openmap()
           }
@@ -93,6 +94,7 @@ class PassDetails : AppCompatActivity() {
 
 
     private fun openmap() {
+
         val gmmIntentUri = Uri.parse("geo:"+lat+","+lng)
         val mapIntent = Intent(Intent.ACTION_VIEW, gmmIntentUri)
         mapIntent.setPackage("com.google.android.apps.maps")
@@ -114,7 +116,7 @@ class PassDetails : AppCompatActivity() {
                     // Only approximate location access granted.
                 } else -> {
                 // No location access granted.
-
+                Toast.makeText(this,"Kindly provide Location permissions",Toast.LENGTH_LONG).show()
             }
 
             }
@@ -161,7 +163,7 @@ class PassDetails : AppCompatActivity() {
 
             onLocationChanged(location)
         } else {
-            return
+
         }
     }
 
@@ -178,7 +180,7 @@ class PassDetails : AppCompatActivity() {
             address = geoCoder.getFromLocation(lat, lng, 1)
             val maxLines = address.get(0).locality
 
-            addressField?.setText(maxLines) //This will display the final address.
+            addressField?.setText(maxLines)
             println("Hello"+maxLines+lat+lng)
         } catch (e: IOException) {
 

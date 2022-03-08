@@ -8,7 +8,8 @@ Features:
 2. Uses Geocoder for location access
 3. Uses Spinner and checklist for selecting dates (By clicking on drop down icon)
 4. Splash Screen
-5. Intent to Google Maps for location view by clicking on View on Map
+5. Use of Fragments
+6. Intent to Google Maps for location view by clicking on View on Map
 
 Screen Shots:
 

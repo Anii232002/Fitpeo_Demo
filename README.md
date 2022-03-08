@@ -13,6 +13,8 @@ Features:
 
 APK link : https://drive.google.com/drive/folders/18MU4MO4wgmSylX8BarBD3nDF91V7DHp4?usp=sharing
 
+Demo video : https://drive.google.com/drive/folders/1w2_tMvVaaNJVMVKv0ADhAyUcL9OPU4wY?usp=sharing
+
 Screen Shots:
 
 Splash Screen:

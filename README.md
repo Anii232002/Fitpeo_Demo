@@ -11,6 +11,8 @@ Features:
 5. Use of Fragments
 6. Intent to Google Maps for location view by clicking on View on Map
 
+APK link : https://drive.google.com/drive/folders/18MU4MO4wgmSylX8BarBD3nDF91V7DHp4?usp=sharing
+
 Screen Shots:
 
 Splash Screen:
